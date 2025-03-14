@@ -1,6 +1,7 @@
 import React from "react";
 
-function LeftSection({
+function LeftSection(
+  {
   imageURL,
   productName,
   productDescription,
@@ -8,7 +9,7 @@ function LeftSection({
   learnMore,
   googlePlay,
   appStore,
-}) {
+  }) {
   return (
     <div className="container">
       <div className="row ">
