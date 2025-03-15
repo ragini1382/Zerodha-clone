@@ -18,6 +18,7 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
+
       <RightSection
         imageURL="media\console.png"
         productName="Console"
@@ -25,8 +26,6 @@ function ProductPage() {
         Gain insights into your trades and investments with in-depth reports and visualisations."
         tryDemo=""
         learnMore=""
-        googlePlay=""
-        appStore=""
       />
       <LeftSection
         imageURL="media\coin.png"
@@ -42,12 +41,10 @@ function ProductPage() {
         imageURL="media\kiteconnect.png"
         productName="Kite Connect API"
         productDescription="An easy to grasp, collection of 
-stock market lessons with in-depth coverage and illustrations. 
-Content is broken down into bite-size cards to help you learn on the go."
+         stock market lessons with in-depth coverage and illustrations. 
+         Content is broken down into bite-size cards to help you learn on the go."
         tryDemo=""
         learnMore=""
-        googlePlay=""
-        appStore=""
       />
       <LeftSection
         imageURL="media\varsity.png"
@@ -60,7 +57,14 @@ Content is broken down into bite-size cards to help you learn on the go."
         googlePlay=""
         appStore=""
       />
-     
+
+      <h5 className="text-muted mt-5 text-center">
+        Want to know more about our technology stack? Check out the{" "}
+        <a href="/" style={{ textDecoration: "none" }}>
+          Zerodha.tech
+        </a>{" "}
+        blog.
+      </h5>
       <Universe />
     </>
   );

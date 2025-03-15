@@ -45,8 +45,9 @@ function Navbar() {
                   Pricing
                 </Link>
               </li>
+              
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" href="/support">
+                <Link class="nav-link active" aria-current="page" to="/support">
                   Support
                 </Link>
               </li>

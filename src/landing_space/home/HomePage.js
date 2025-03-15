@@ -17,6 +17,7 @@ function HomePage() {
       <Stats />
       <Pricing />
       <Education />
+    
       <OpenAccount />
       
 

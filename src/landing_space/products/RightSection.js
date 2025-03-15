@@ -4,10 +4,8 @@ function RightSection({
   imageURL,
   productName,
   productDescription,
-  tryDemo,
+  
   learnMore,
-  googlePlay,
-  appStore,
 }) {
   return (
     <div className="container">
@@ -17,21 +15,9 @@ function RightSection({
           <h1>{productName}</h1>
           <p>{productDescription}</p>
           <div>
-            <a href={tryDemo}> Try Demo →</a>
-            <a href={learnMore} style={{ marginLeft: "50px" }}>
+            
+            <a href={learnMore} style={{ textDecoration:"none" }}>
               Learn More →
-            </a>
-          </div>
-          <div className="mt-3">
-            {" "}
-            <a href={googlePlay}>
-              <img src="media/googlePlayBadge.svg" />
-            </a>
-            <a href={appStore}>
-              <img
-                src="media/appstoreBadge.svg"
-                style={{ marginLeft: "50px" }}
-              />
             </a>
           </div>
         </div>
